@@ -1,0 +1,80 @@
+{
+	"rooms": [
+		{
+			"id": "r01",
+			"name": "habitación",
+			"dialogues": [
+				{
+					"id": "r01-d01",
+					"character": "",
+					"texts": [
+						"Estás en una habitación. Afuera llueve. Ves una <b>mesa</b>, un <b>revolver</b> y un <b>hombre</b> sentado en un sofá, durmiendo."
+					],
+					"next": "r01-d02"
+				},
+				{
+					"id": "r01-d02",
+					"character": "Sandbox",
+					"texts": [
+						""
+					],
+					"next": "",
+					"sound": ""
+				}
+			],
+			"environment": [
+				{
+					"name": "mesa",
+					"pickable": false,
+					"actions": [
+						{
+							"type": 5,
+							"reaction": "Es una mesa. Hay un revolver ahí."
+						}
+					]
+				},
+				{
+					"name": "revolver",
+					"pickable": true,
+					"actions": [
+						{
+							"type": 8,
+							"reaction": "Puede que la necesite."
+						}
+					]
+				},
+				{
+					"name": "hombre",
+					"pickable": false,
+					"actions": [
+						{
+							"type": 8,
+							"reaction": "Mejor no lo recojo."
+						},
+						{
+							"type": 2,
+							"reaction": "¿Hola?"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "r02",
+			"name": "cocina",
+			"dialogues": [
+				{
+					"id": "r02-d01",
+					"character": "",
+					"texts": [
+						"Llegas a una cocina. Huele a comida podrida.",
+						"Escuchas movimiento en la habitación de la que saliste...parece que el hombre ha despertado.",
+						"Ves un <b>cuchillo</b>, una <b>empanada</b> dañanada, una <b>botella con agua</b>, una <b>nevera</b> averiada."
+					],
+					"next": ""
+				}
+			],
+			"environment": []
+		}
+	]
+}

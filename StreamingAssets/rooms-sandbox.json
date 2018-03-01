@@ -1,0 +1,49 @@
+{
+  "rooms": [
+    {
+      "id": "r01",
+      "name": "cocina",
+      "dialogues": [
+        {
+          "id": "r1-d1",
+          "character": "",
+          "texts": [
+            "Vivamus maximus orci eros, a vestibulum mi viverra vitae. Aenean urna urna, scelerisque eget imperdiet et, imperdiet sed arcu.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae libero ultricies, feugiat arcu vel, sagittis magna. Aliquam scelerisque, neque ac placerat rhoncus, diam sem varius nisl, sed consequat est diam vitae augue. Duis blandit placerat justo, quis suscipit urna dictum id. Vivamus commodo elit at placerat fermentum.",
+            "Duis iaculis ex sit amet ipsum laoreet imperdiet. Nulla blandit ultrices diam sit amet venenatis. Curabitur pellentesque augue velit, ut porttitor urna tincidunt sit amet. Morbi vehicula nisi ac lorem euismod, vel ullamcorper tellus dictum.",
+            "Nullam condimentum hendrerit suscipit. Cras aliquet sit amet ipsum sed imperdiet. Aliquam luctus egestas velit sed consequat.",
+            "Nulla in est sed nunc hendrerit finibus ut vel nunc. Donec pulvinar, nisl ac pellentesque scelerisque, dolor diam euismod dui, sed fringilla erat augue sed eros. Cras porta tortor tortor, nec fermentum tellus elementum a. Morbi consectetur erat sit amet ex consectetur dapibus ac dignissim lacus. In hac habitasse platea dictumst.",
+            "Aenean elementum lectus eu nulla interdum, quis hendrerit nibh congue. In vel lacinia nunc, sodales hendrerit arcu. Praesent pulvinar id mauris eu consequat. Pellentesque quis massa sit amet nulla commodo dictum. Aliquam sit amet accumsan nibh.",
+            "Nullam vehicula dui arcu, non luctus odio lacinia luctus. Nullam vehicula, erat porttitor commodo hendrerit, lectus purus finibus neque, vitae laoreet neque ipsum ut ante. Sed congue sem sed risus sollicitudin vehicula. Aenean aliquam, elit quis dapibus gravida, magna mauris suscipit enim, vitae mollis tortor elit id velit. Integer sit amet dui sit amet nisl fermentum convallis. Sed nec tellus in sem fringilla tempus.",
+            "Aenean in neque at nunc egestas viverra. Sed quis sapien venenatis, vehicula risus in, porttitor nisl. Etiam sagittis porta ornare. Pellentesque varius leo sem. In sit amet sollicitudin felis, eget lacinia turpis. Vestibulum luctus neque porttitor rutrum suscipit. Sed in lobortis risus. Sed vulputate mi et libero luctus sodales eget vel lacus.",
+            "Vestibulum quis vestibulum orci. Aenean ut velit convallis, mattis justo nec, commodo libero. Vestibulum venenatis ac tortor a maximus. Vivamus sed nulla at ante gravida accumsan a ut risus. Nulla eu varius lorem, nec pulvinar massa. Fusce ac pretium magna, a sagittis felis. Donec vulputate ipsum quis nunc tempor pharetra. Phasellus ornare elit vitae ligula posuere efficitur.",
+            "Morbi a tortor vel justo facilisis ullamcorper.",
+            "Nunc id dignissim magna, vitae euismod erat. Vestibulum tristique leo tortor, vitae blandit nisl imperdiet ut. Fusce lobortis pellentesque risus, a tristique libero.",
+            "Quisque quam nisi, fringilla quis mauris mollis, aliquet hendrerit ipsum. Vivamus justo sapien, mollis ut suscipit ac, sodales fringilla lorem.",
+            "Nulla lacinia et ante eu rhoncus. Duis fringilla metus nibh, blandit accumsan tortor laoreet id."
+          ],
+          "next": "r1-d2"
+        },
+        {
+          "id": "r1-d2",
+          "character": "Sandbox",
+          "texts": [
+            "Este es el objeto de pruebas"
+          ],
+          "next": "",
+          "sound": ""
+        }
+      ],
+      "environment": [
+        {
+          "name": "mesa",
+          "pickable": false,
+          "actions": {
+            "use": {},
+            "look": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "starting": "r01",
+  "mapRooms": [
+    {
+      "roomId": "r01",
+      "adjoinings": [
+        {
+          "id": "r02",
+          "direction": 8,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "roomId": "r02",
+      "adjoinings": [
+        {
+          "id": "r01",
+          "direction": 2,
+          "locked": false
+        },
+        {
+          "id": "r03",
+          "direction": 4,
+          "locked": true
+        },
+        {
+          "id": "r04",
+          "direction": 8,
+          "locked": false
+        },
+        {
+          "id": "r05",
+          "direction": 6,
+          "locked": false
+        }
+      ]
+    }
+  ]
+}
